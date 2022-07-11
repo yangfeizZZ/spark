@@ -16,8 +16,8 @@ This script can compute SVG of spatial transcriptome.If you want to generate the
 
 If you want tu use this script,you should provide two txt of your own spatial transcriptome data.
 
-1. The spatial transcriptome gene expression matrix.see [expression-matrix](https://github.com/yangfeizZZ/spark/blob/master/example/count.txt)
-2. The cell location and celltype matrix  [location-matrix](https://github.com/yangfeizZZ/spark/blob/master/example/info.txt)
+1. The spatial transcriptome gene expression matrix. see [expression-matrix](https://github.com/yangfeizZZ/spark/blob/master/example/count.txt)
+2. The cell location and celltype matrix. see  [location-matrix](https://github.com/yangfeizZZ/spark/blob/master/example/info.txt)
 
 If you prepare the tow matrix,you can compute the SVG list by follow command
 
