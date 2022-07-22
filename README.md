@@ -55,3 +55,4 @@ If you prepare the tow matrix,you can compute the SVG list by follow command
 $ Rscript spark.r count.txt info.txt gene_config.json
 ```
 
+The result of comand is [cell_class.png](https://github.com/yangfeizZZ/spark/blob/master/example/cell_class.png) ;[single cell type.png](https://github.com/yangfeizZZ/spark/blob/master/example/single%20cell%20type.png) ;[gene.png](https://github.com/yangfeizZZ/spark/blob/master/example/gene.png)
