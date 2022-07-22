@@ -49,10 +49,10 @@ If you want tu use this script,you should provide two txt of your own spatial tr
 2. The cell location and celltype matrix. see  [location-matrix](https://github.com/yangfeizZZ/spark/blob/master/example/info.txt)
 3. The SVG json file.see [gene_config.json](https://github.com/yangfeizZZ/spark/blob/master/example/gene_config.json)
 
-If you prepare the tow matrix,you can compute the SVG list by follow command
+If you prepare the three matrix,you can plot  by follow command
 
 ```R
-$ Rscript spark.r count.txt info.txt gene_config.json
+$ Rscript cell_class_plot.r count.txt info.txt gene_config.json
 ```
 
 The result of comand is [cell_class.png](https://github.com/yangfeizZZ/spark/blob/master/example/cell_class.png) ;[single cell type.png](https://github.com/yangfeizZZ/spark/blob/master/example/single%20cell%20type.png) ;[gene.png](https://github.com/yangfeizZZ/spark/blob/master/example/gene.png)
